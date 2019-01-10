@@ -1,0 +1,9 @@
+
+
+have both pawn teams working, but clipping on timpanis when all together
+
+add everything to main
+
+then move on to instruments
+
+
