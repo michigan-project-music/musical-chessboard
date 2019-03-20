@@ -46,3 +46,14 @@ Chessboard::Chessboard(){
 	//done! the board is initialzied.
 }
 
+
+void Chessboard::setPiece(int row, int column, Chesspiece piece){
+	//we want to get the appropriate chess piece from the row/column representation...
+	pieces[row * 8 + column] = piece;
+}
+
+
+Chesspiece Chessboard::getPiece(int row, int column){
+	return pieces[row * 8 + column]
+}
+
